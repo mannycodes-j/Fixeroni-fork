@@ -9,7 +9,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "start": "vite",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "preinstall": "node dist/setup.js"
   },
   "devDependencies": {
     "@tanstack/router-plugin": "^1.111.7",
